@@ -90,8 +90,8 @@ override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out
 }
 </code></pre>
 ## 权限常量
-| 权限名        | 使用常量    |  详细权限  |
-| --------   | -----:   | :----: |
+|     权限         | 使用常量    |  详细权限  |
+|:----:            |:------:         |:-------:|
 | 日历        | PERMISSION_CALENDAR      |   READ_CALENDAR、WRITE_CALENDAR    |
 | 相机        | PERMISSION_CAMERA      |   CAMERA    |
 | 联系人        | PERMISSION_CONTACTS      |   READ_CONTACTS、WRITE_CONTACTS、GET_ACCOUNTS    |
