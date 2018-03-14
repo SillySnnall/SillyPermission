@@ -12,7 +12,9 @@ minSdkVersion 16+
    <img src="https://github.com/StringBOX/SillyPermission/blob/master/img/Screenshot_20180313-162750.png" width="48%"/>
    <img src="https://github.com/StringBOX/SillyPermission/blob/master/img/Screenshot_20180313-162817.png" width="48%"/>
 </div>
+
 ## 使用
+
 1.Add it in your root build.gradle at the end of repositories:
 <pre><code>
 allprojects {
