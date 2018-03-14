@@ -26,7 +26,7 @@ allprojects {
 2.Add the dependency:
 <pre><code>
 dependencies {
-  compile 'com.github.StringBOX:SillyPermission:v1.0'
+  compile 'com.github.StringBOX:SillyPermission:v1.1'
 }
 </code></pre>
 ### Java
