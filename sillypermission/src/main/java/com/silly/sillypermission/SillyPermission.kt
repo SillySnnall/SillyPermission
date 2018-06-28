@@ -295,4 +295,13 @@ object SillyPermission {
         tip = "${tip}未授权，功能无法使用,请点击 设置-权限"
         return tip
     }
+
+    /**
+     * 注销SillyPermission
+     */
+    fun cancel() {
+        mSillyPermissionClick = null
+        mSillyPermissionCall = null
+        mPermissions = null
+    }
 }

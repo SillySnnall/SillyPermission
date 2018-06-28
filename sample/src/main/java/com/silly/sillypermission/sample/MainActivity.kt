@@ -94,4 +94,9 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         SillyPermission.onRequestPermissionsResultPermission(this, requestCode, permissions, grantResults)
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        SillyPermission.cancel()
+    }
 }
